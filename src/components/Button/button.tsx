@@ -11,7 +11,7 @@ interface ButtonProps {
       // The onClick function passed in the props is attached to the button's onClick event
       <>
         <button onClick={onClick} data-testid="button-test">
-          Click me Now
+          Click me
         </button>
       </>
     );
