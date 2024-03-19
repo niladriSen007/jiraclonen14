@@ -84,3 +84,5 @@ model User {
   assignedTicket  BoardTicket[] @relation("assigned")
   reportedTickets BoardTicket[] @relation("reported")
 }
+
+
